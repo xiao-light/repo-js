@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>js-10秒倒计时</title>
+		<link rel="stylesheet" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<ul class="list">
+				<li><h1>支付界面</h1>
+				<li><text>价格：</text><span>$1999.8</span></li>
+				<li><text>物品：</text><span>冰箱</span></li>
+				<li><text>地址：</text><span>四川资阳安岳县</span></li>
+				<button type="button" id="btn01" class="btn">取消</button>
+				<button type="button" id="btn02" class="btn">支付</button>
+			</ul>
+		</div>
+		<!-- 
+			逻辑：点击#btn02 
+				=> 显示弹窗“确定吗？” 
+				=> 点击确定 
+				=> 跳转页面
+		-->
+		<script type="text/javascript">
+			var btn02 = document.getElementById('btn02');
+			btn02.onclick = function(){
+			var res = window.confirm('确定吗？');
+			if(res){
+				location.href = 'back.html';
+				}
+			}
+		</script>
+		
+	</body>
+</html>
