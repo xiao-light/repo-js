@@ -1,0 +1,13 @@
+.container{
+  position: relative;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+}
+.btn{
+  position: absolute;
+  bottom: 10px;
+  margin-left: 95px;
+}

@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+  width: 400px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bbf1fa;
+}
+.btn{
+  position: absolute;
+  bottom: 60px;
+}
+
+/* .btn button{
+  position: absolute;
+  display: inline-block;
+  bottom: 30px;
+} */

@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 400px;
+  margin: 50px auto;
+}
+
+.addBox{
+  border: 1px solid black;
+  width: 276px;
+  margin-top: 30px;
+  padding-left: 10px;
+}
+.addBox li p{
+  display: inline-block;
+  width: 60px;
+}
+.addBox li input{
+  display: inline-block;
+}
+.addBox button{
+  margin-left: 45%;
+}

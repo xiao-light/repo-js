@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>添加删除记录</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="tabBox">
+      <table id="tab01" border="1">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Salary</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>tom</td>
+          <td>tom@tom.com</td>
+          <td>1000</td>
+          <td><a href="deleteEmp?id=001">delete</a></td>
+        </tr>
+        <tr>
+          <td>bob</td>
+          <td>bob@bob.com</td>
+          <td>2000</td>
+          <td><a href="deleteEmp?id=002">delete</a></td>
+        </tr>
+        <tr>
+          <td>alice</td>
+          <td>alice@alice.com</td>
+          <td>3000</td>
+          <td><a href="deleteEmp?id=003">delete</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="addBox">
+      <h2>添加新成员</h2>
+      <ul>
+        <li>
+          <p>name：</p><input type="text" name="name" id="empName">
+        </li>
+        <li>
+          <p>email：</p><input type="text" name="email" id="empEmail">
+        </li>
+        <li>
+          <p>salary：</p><input type="text" name="salary" id="empSalary">
+        </li>
+      </ul>
+      <button id="btn" type="submit">提交</button>
+    </div>
+  </div>
+</body>
+
+</html>
