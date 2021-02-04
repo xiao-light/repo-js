@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>验证码生成与校验</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="code">
+				<input type="text" onfocus="this.blur();" name="" id="codeTxt" />
+				<a id="btnA" href="javascript:;"> 看不清，换一张 </a>
+			</div>
+
+			<div class="inputCode">
+				<h3>验证码：</h3>
+				<input type="text" name="txt" id="inputTxt" />
+			</div>
+			<div class="btnSubmit">
+				<button type="submit">确定</button>
+			</div>
+		</div>
+	</body>
+</html>
