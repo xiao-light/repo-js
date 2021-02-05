@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.btn {
+	margin: 50px auto 20px;
+}
+.btn button {
+	border: 1px solid #ccc;
+	width: 80px;
+	height: 45px;
+	font-size: 20px;
+	color: aqua;
+	font-weight: 600;
+	text-align: center;
+	/* 让鼠标显示为 不可点击 */
+	/* cursor: not-allowed; */
+
+	/* 让 button 的事件都不可用,会禁止 hover */
+	/* pointer-events: none; */
+}
+button:hover {
+	box-shadow: 0 0 5px aqua;
+	border: 2px solid aqua;
+}
+.show {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.show img {
+	display: block;
+}
